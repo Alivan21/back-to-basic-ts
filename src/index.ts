@@ -1,2 +1,8 @@
-// Entry point for your TypeScript project
-console.log("Hello, TypeScript!");
+import MainArray from "@/01-dynamic-arrays";
+
+function Main() {
+  console.log("Running Main function...");
+  MainArray();
+}
+
+Main();

@@ -2,9 +2,9 @@
   "name": "back-to-basic-ts",
   "version": "1.0.0",
   "description": "Repository to learn code back to basic",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "ts-node src/index.ts",
+    "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -30,7 +30,7 @@
     "globals": "^17.6.0",
     "jiti": "^2.7.0",
     "prettier": "^3.8.3",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.2"
   }
