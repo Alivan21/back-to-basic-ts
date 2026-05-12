@@ -27,4 +27,20 @@ export default defineConfig([
     },
   },
   eslintPluginPrettierRecommended,
+  {
+    rules: {
+      "prettier/prettier": [
+        "warn",
+        {
+          printWidth: 120,
+          semi: true,
+          tabWidth: 2,
+          singleQuote: false,
+          bracketSpacing: true,
+          trailingComma: "all",
+          endOfLine: "auto",
+        },
+      ],
+    },
+  },
 ]);
